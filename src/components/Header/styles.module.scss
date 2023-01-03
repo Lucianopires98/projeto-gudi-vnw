@@ -1,21 +1,31 @@
 .container {
   &__box-img {
-    width: 100vw;
-    height: 80vh;
+    width: 100%;
+    height: 23rem;
     background-image: url(../../assets/img/kombi.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   &__box-search {
-    padding: 14rem 0 0 4rem;
+    padding: 4% 0 0 4%;
     width: 22rem;
+
+    @media (max-width: 350px) {
+      width: 100%;
+      padding: 8% 0 0 8%;
+    }
   }
 
   &__paragraph {
     font-size: 2.1rem;
     font-weight: bold;
     color: #005bd5;
+
+    @media (max-width: 350px) {
+      font-size: 1rem;
+    }
   }
 
   &__input {
@@ -29,9 +39,11 @@
 
   &__button {
     background: #005bd5;
+    text-transform: uppercase;
     border: none;
     border-radius: 0.9rem;
-    font-size: 1.2rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.2rem;
     color: #fff;
     width: 9.3rem;
     height: 2rem;
