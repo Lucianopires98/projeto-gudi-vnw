@@ -142,11 +142,8 @@
     }
 
     button {
-      width: 12.6rem;
-      height: 2.9rem;
-      background: #8b8b8b;
-      border: 1px solid #fff;
-      border-radius: 0.9rem;
+      background: transparent;
+      border: none;
       color: #fff;
       cursor: pointer;
     }
@@ -169,11 +166,8 @@
     }
 
     button {
-      width: 12.6rem;
-      height: 2.9rem;
-      background: #8b8b8b;
-      border: 1px solid #fff;
-      border-radius: 0.9rem;
+      background: transparent;
+      border: none;
       color: #fff;
       cursor: pointer;
     }
@@ -196,11 +190,8 @@
     }
 
     button {
-      width: 12.6rem;
-      height: 2.9rem;
-      background: #8b8b8b;
-      border: 1px solid #fff;
-      border-radius: 0.9rem;
+      background: transparent;
+      border: none;
       color: #fff;
       cursor: pointer;
     }
@@ -223,13 +214,22 @@
     }
 
     button {
-      width: 12.6rem;
-      height: 2.9rem;
-      background: #8b8b8b;
-      border: 1px solid #fff;
-      border-radius: 0.9rem;
+      background: transparent;
+      border: none;
       color: #fff;
       cursor: pointer;
     }
+  }
+  .style-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12.6rem;
+    height: 2.9rem;
+    background: rgb(139, 139, 139, 0.5);
+    border: 1px solid #fff;
+    border-radius: 0.9rem;
+    color: #fff;
+    cursor: pointer;
   }
 }

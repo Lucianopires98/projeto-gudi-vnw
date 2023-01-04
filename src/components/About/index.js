@@ -51,16 +51,24 @@ const About = () => {
       <img src={img3} alt="roda de amigos na água" />
 
       <div className={styles["container__box-img1"]}>
-        <button>RIO DE JANEIRO</button>
+        <div className={styles["style-btn"]}>
+          <button>RIO DE JANEIRO</button>
+        </div>
       </div>
       <div className={styles["container__box-img2"]}>
-        <button>RIO DAS OSTRAS</button>
+        <div className={styles["style-btn"]}>
+          <button>RIO DAS OSTRAS</button>
+        </div>
       </div>
       <div className={styles["container__box-img3"]}>
-        <button>CALDAS NOVAS</button>
+        <div className={styles["style-btn"]}>
+          <button>CALDAS NOVAS</button>
+        </div>
       </div>
       <div className={styles["container__box-img4"]}>
-        <button>AMAZÔNIA</button>
+        <div className={styles["style-btn"]}>
+          <button>AMAZÔNIA</button>
+        </div>
       </div>
     </div>
   );
