@@ -2,8 +2,17 @@
   display: flex;
   flex-wrap: wrap;
 
+  @media (max-width: 950px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
   img {
     width: 50%;
+
+    @media (max-width: 950px) {
+      width: 100%;
+    }
   }
 
   &__box1 {
@@ -37,6 +46,10 @@
       cursor: pointer;
       margin-top: 1rem;
     }
+
+    @media (max-width: 950px) {
+      width: 100%;
+    }
   }
 
   &__box2 {
@@ -69,6 +82,10 @@
       cursor: pointer;
       margin-top: 1rem;
     }
+
+    @media (max-width: 950px) {
+      width: 100%;
+    }
   }
 
   &__box-line {
@@ -87,5 +104,132 @@
     height: 0.06rem;
     background: #fff;
     display: block;
+  }
+
+  &__box-line2 {
+    display: flex;
+    align-items: center;
+
+    p {
+      letter-spacing: 0.2rem;
+      margin-left: 1rem;
+      color: #005bd5;
+      font-size: 0.7rem;
+    }
+  }
+
+  &__line2 {
+    width: 3rem;
+    height: 0.06rem;
+    background: #005bd5;
+    display: block;
+  }
+
+  &__box-img1 {
+    background-image: url("../../assets/img/riodejaneiro.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 16rem;
+    height: 12.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 950px) {
+      width: 100%;
+      height: 50rem;
+    }
+
+    button {
+      width: 12.6rem;
+      height: 2.9rem;
+      background: #8b8b8b;
+      border: 1px solid #fff;
+      border-radius: 0.9rem;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  &__box-img2 {
+    background-image: url("../../assets/img/riodasostras.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 16rem;
+    height: 12.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 950px) {
+      width: 100%;
+      height: 50rem;
+    }
+
+    button {
+      width: 12.6rem;
+      height: 2.9rem;
+      background: #8b8b8b;
+      border: 1px solid #fff;
+      border-radius: 0.9rem;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  &__box-img3 {
+    background-image: url("../../assets/img/caldasnovas.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 16rem;
+    height: 12.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 950px) {
+      width: 100%;
+      height: 50rem;
+    }
+
+    button {
+      width: 12.6rem;
+      height: 2.9rem;
+      background: #8b8b8b;
+      border: 1px solid #fff;
+      border-radius: 0.9rem;
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+
+  &__box-img4 {
+    background-image: url("../../assets/img/amazonia.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 16rem;
+    height: 12.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width: 950px) {
+      width: 100%;
+      height: 50rem;
+    }
+
+    button {
+      width: 12.6rem;
+      height: 2.9rem;
+      background: #8b8b8b;
+      border: 1px solid #fff;
+      border-radius: 0.9rem;
+      color: #fff;
+      cursor: pointer;
+    }
   }
 }

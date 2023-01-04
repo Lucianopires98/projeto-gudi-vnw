@@ -23,8 +23,8 @@ const About = () => {
       </div>
 
       <div className={styles["container__box2"]}>
-        <div className={styles["container__box-line"]}>
-          <span className={styles["container__line"]}></span>
+        <div className={styles["container__box-line2"]}>
+          <span className={styles["container__line2"]}></span>
           <p>VIAGENS NACIONAIS</p>
         </div>
         <h2>O clima perfeito, no lugar perfeito</h2>
@@ -49,6 +49,19 @@ const About = () => {
         <button>AGENDAR</button>
       </div>
       <img src={img3} alt="roda de amigos na água" />
+
+      <div className={styles["container__box-img1"]}>
+        <button>RIO DE JANEIRO</button>
+      </div>
+      <div className={styles["container__box-img2"]}>
+        <button>RIO DAS OSTRAS</button>
+      </div>
+      <div className={styles["container__box-img3"]}>
+        <button>CALDAS NOVAS</button>
+      </div>
+      <div className={styles["container__box-img4"]}>
+        <button>AMAZÔNIA</button>
+      </div>
     </div>
   );
 };
