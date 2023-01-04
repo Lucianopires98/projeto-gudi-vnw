@@ -15,7 +15,7 @@ import ImgCard4 from "../../assets/img/cardapio.svg";
 
 const Gallery = () => {
   return (
-    <div className={styles["container"]}>
+    <div id="beneficios" className={styles["container"]}>
       <div className={styles["container__box-text"]}>
         <p>use a hashtag #brasilisverigudi</p>
         <h2>Nosso mural de Experiências</h2>

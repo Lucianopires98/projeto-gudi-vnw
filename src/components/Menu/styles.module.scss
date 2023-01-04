@@ -30,7 +30,7 @@
     }
   }
 
-  &__menu button {
+  &__menu a {
     background: none;
     border: none;
     font-size: 0.75rem;
@@ -40,14 +40,18 @@
     transition: 0.5s;
     cursor: pointer;
     border-radius: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
   }
 
-  &__menu button:hover {
+  &__menu a:hover {
     background: #005bd5;
     color: #fff;
   }
 
-  &__menu button:last-child {
+  &__menu a:last-child {
     letter-spacing: 0.188rem;
   }
 }

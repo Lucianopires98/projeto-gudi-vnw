@@ -4,7 +4,7 @@ import logo from "../../assets/img/logo.svg";
 
 const Footer = () => {
   return (
-    <div className={styles["container"]}>
+    <div id="contato" className={styles["container"]}>
       <div>
         <img src={logo} alt="logo" />
         <p>Sobre nós</p>

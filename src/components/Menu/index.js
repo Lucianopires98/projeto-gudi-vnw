@@ -13,10 +13,10 @@ const Menu = () => {
         <img src={menu} alt="menu hamburger" />
       </div>
       <div className={styles["container__menu"]}>
-        <button>Sobre</button>
-        <button>Beneficios</button>
-        <button>Contato</button>
-        <button>AGENDAR</button>
+        <a href="#sobre">Sobre</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#contato">Contato</a>
+        <a href="#agendar">agendar</a>
       </div>
     </div>
   );

@@ -8,8 +8,7 @@ const About = () => {
   return (
     <div className={styles["container"]}>
       <img src={img1} alt="imagem de um homem e uma mulher" />
-
-      <div className={styles["container__box1"]}>
+      <div id="sobre" className={styles["container__box1"]}>
         <div className={styles["container__box-line"]}>
           <span className={styles["container__line"]}></span>
           <p>VIAGENS NACIONAIS</p>
